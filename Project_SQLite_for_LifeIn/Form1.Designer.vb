@@ -29,9 +29,7 @@ Partial Class frmPrincipale
         txtPublication = New TextBox()
         txtISBN = New TextBox()
         txtTitle = New TextBox()
-        txtID = New TextBox()
         lblinsert = New Label()
-        lblBookID = New Label()
         lblTitle = New Label()
         lbliSBN = New Label()
         lblGenre = New Label()
@@ -103,13 +101,6 @@ Partial Class frmPrincipale
         txtTitle.Size = New Size(181, 27)
         txtTitle.TabIndex = 7
         ' 
-        ' txtID
-        ' 
-        txtID.Location = New Point(144, 45)
-        txtID.Name = "txtID"
-        txtID.Size = New Size(181, 27)
-        txtID.TabIndex = 8
-        ' 
         ' lblinsert
         ' 
         lblinsert.AutoSize = True
@@ -118,15 +109,6 @@ Partial Class frmPrincipale
         lblinsert.Size = New Size(86, 20)
         lblinsert.TabIndex = 9
         lblinsert.Text = "Insert Book:"
-        ' 
-        ' lblBookID
-        ' 
-        lblBookID.AutoSize = True
-        lblBookID.Location = New Point(80, 48)
-        lblBookID.Name = "lblBookID"
-        lblBookID.Size = New Size(61, 20)
-        lblBookID.TabIndex = 10
-        lblBookID.Text = "BookID:"
         ' 
         ' lblTitle
         ' 
@@ -191,9 +173,7 @@ Partial Class frmPrincipale
         Controls.Add(lblGenre)
         Controls.Add(lbliSBN)
         Controls.Add(lblTitle)
-        Controls.Add(lblBookID)
         Controls.Add(lblinsert)
-        Controls.Add(txtID)
         Controls.Add(txtTitle)
         Controls.Add(txtISBN)
         Controls.Add(txtPublication)
@@ -215,9 +195,7 @@ Partial Class frmPrincipale
     Friend WithEvents txtPublication As TextBox
     Friend WithEvents txtISBN As TextBox
     Friend WithEvents txtTitle As TextBox
-    Friend WithEvents txtID As TextBox
     Friend WithEvents lblinsert As Label
-    Friend WithEvents lblBookID As Label
     Friend WithEvents lblTitle As Label
     Friend WithEvents lbliSBN As Label
     Friend WithEvents lblGenre As Label
